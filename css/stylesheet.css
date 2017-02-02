@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #d0c8c8;
+	font-family: 'Fenix', serif;
+}
+
+header {
+	border-bottom: 1px solid black;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+div.logo,
+nav,
+nav ul,
+nav ul li,
+div.tagline {
+	display: inline;
+}
+
+div.logo {
+	background-color: white;
+	position: relative;
+	height: 85px;
+}
+
+div.logo img {
+	width: 250px;
+	height: 70px;
+	position: relative;
+	top: .1em;
+}
+
+div.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	right: 7.5em;
+	top: 1.5em;
+	
+}
+
+nav ul li {
+	margin-right: .75em;
+	font-size: 1.5em;
+	
+	
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: .1em;
+	color: blue;
+}
+
+nav ul li a:hover {
+	border-radius: .25em;
+	background-color: white;
+	
+}
+
+div.jumbotron {
+	background: url('../images/truck.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -7em;
+	border-bottom: 2.5px solid black;
+	padding: 3em 0;
+	font-size: 1.75em;
+	margin-top: 2.6em;
+}
+
+
+
+
+div.jumbotron h2,
+div.jumbotron ul li {
+	list-style-type: none;
+	text-align: center;
+	border-radius: .25em;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+}
+
+div.services {
+	background: url('../images/construction.jpg');
+	background-size: cover;
+	background-position: no-repeat;
+	padding: .5em;
+}
+
+div.services h2 {
+	text-align: center;
+	margin: 0;
+	font-size: 2.5em;
+	font-size: 3em;
+	color: #ff0e0e;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div.services ul {
+	border: 1px solid black;
+	background-color: grey;
+	border-radius: 1.25em;
+	
+}
+
+div.services ul li {
+	font-size: 1.5em;
+}
+
+div.contact {
+	background-color: grey;
+	text-align: center;
+	border-radius: 1.25em;
+	border: 1px solid black;
+	margin-bottom: 1em;
+}
+
+div.contact h4 {
+	margin: 0;
+	font-size: 2em;
+	letter-spacing: .1em;
+}
+
+
+div.contact h4.facebook-text {
+	position: relative;
+	bottom: .5em;
+
+}
+
+
+div.contact h4.facebook-text,
+div.contact img {
+	display: inline;
+	margin-top: .5em;
+}
+
+div.mission {
+	background: url('../images/mission.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	border-bottom: 2.5px solid black;
+}
+
+div.mission p {
+	background-color: cornflowerblue;
+	padding: .5em;
+	border-radius: .5em;
+	font-size: 1.5em;
+	border: 1px solid black;
+}
+
+div.mission h2 {
+	text-align: center;
+	font-size: 3em;
+	margin: .25em;
+}
+
